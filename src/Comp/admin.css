@@ -1,0 +1,170 @@
+body{
+    background: rgb(0 0 0 / 10%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .fs{
+    float: right;
+  }
+  
+  .kop{
+    margin: auto;
+    width: 300px;
+    background: rgb(225, 243, 255);
+  }
+  
+  
+  
+  form{
+    top: 10%;
+    margin-top: 5%;
+    
+  }
+  
+  
+  .in{
+    padding: 15px 60px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .sub{
+    padding: 12px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    
+  }
+  
+  
+  
+  .ss{
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  
+  
+  
+  .ii{
+    background: rgb(79, 255, 63);
+    padding: 30px;
+    margin: 20px;
+  
+  }
+  
+ 
+  
+  .ii p{
+    font-size: 120%;
+    padding: 20px;
+    font-weight: bold;
+    background: rgb(255, 72, 72);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  img{
+    height: 270px;
+    width: 300px;
+  }
+  
+  .nv{
+    background: rgb(14, 255, 14);
+  }
+
+  .h1 {
+    color: rgb(250 96 5);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+  
+    border-bottom: 4px solid black;
+    margin-bottom: 20px;
+  }
+
+  .lnk{
+    text-decoration: none;
+    font-size: 90%;
+    
+  }
+
+  .ms{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 400;
+    background: rgb(0, 0, 148);
+    padding: 10px 20px;
+  }
+
+  .mss{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 400;
+    background: red;
+    padding: 10px 20px;
+  }
+
+
+
+  .ai{
+    font-weight:600;
+    color: rgb(252, 252, 252);
+    letter-spacing: 3px;
+    font-size: 200%;
+    background: rgb(0, 0, 148);
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+  .kx{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 400;
+    background: rgb(0, 0, 148);
+    padding: 10px;
+    
+
+  }
+
+  .lbxx{
+    position: relative;
+    font-weight: 600;
+    color: rgb(154, 100, 0);
+  
+    margin-top: 10px;
+    margin-bottom: 0px;
+    top: 7px;
+    margin-left: 30px;
+    float: left;
+    margin-bottom: 5px;
+  
+  
+  }
+
+  #lx{
+    font-size: 350%;
+    font-weight: 800;
+  }
+
+ #imx{
+  height: 70px;
+  width: 70px;
+ }
+
+ .sel{
+  padding: 5px 20px;
+ }

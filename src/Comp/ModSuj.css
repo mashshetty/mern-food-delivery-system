@@ -1,0 +1,82 @@
+.spa{
+    background: rgb(0, 152, 183);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 130%;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.price{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 100%;
+    color: red;
+    margin-top: 20px;
+}
+
+.block{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.kop{
+    text-align: center;
+    float: none;
+}
+
+.img{
+    height: 180px;
+}
+
+.sujhead{
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 200%;
+    color: rgb(154, 100, 0);
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+.h1 {
+    color: rgb(250 96 5);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    border-bottom: 4px solid black;
+    margin-bottom: 20px;
+  }
+
+  .spaxx{
+    background: rgb(255, 0, 119);
+    /* padding: 5px 0px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    height: 30px;
+    font-size: 100%;
+    text-align: center;
+    margin-right: 10px;
+    padding: 3px 10px;
+   
+}
+
+.lo{
+    color: rgb(0, 3, 33);
+    font-size: 100%;
+}
+
+

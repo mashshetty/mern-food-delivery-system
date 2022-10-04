@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './Comp/Home';
+import Admin from './Comp/Admin';
+import Sujatha from './Comp/Stores/Sujatha';
+import HandleSuj from './Comp/HandleSuj';
+import MyOrders from './Comp/MyOrders';
+import Add from './Comp/Add';
+import Modshops from './Comp/Modshops';
+import ModifySuj from './Comp/ModifySuj';
+import Allorders from './Comp/Allorders';
+import Total from './Comp/Total';
+import Showdelivered from './Comp/Showdelivered';
+import { Link } from 'react-router-dom';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/adminx' element={<Admin/>}/>
+          <Route path='/sujatha/:shopname' element={<Sujatha/>}/>
+          <Route path='/handlesuj' element={<HandleSuj/>}/>
+          <Route path='/myordersx' element={<MyOrders/>}/>
+          <Route path='/allordersx' element={<Allorders/>}/>
+          <Route path='/modifysujx' element={<ModifySuj/>}/>
+          <Route path='/showdeliveredx' element={<Showdelivered/>}/>
+          <Route path='/addxv' element={<Add/>}/>
+          <Route path='/modshopxv' element={<Modshops/>}/>
+          <Route path='/totalx' element={<Total/>}/>
+        </Routes>
+      </Router>
+   
+
     </div>
   );
 }
